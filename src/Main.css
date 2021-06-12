@@ -1,0 +1,50 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.timer{
+    width: 300px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+}
+.buttons > button{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    color: #fff;
+}
+.start{
+    background-color: green;
+}
+.stop{
+    background-color: red;
+}
+.reset{
+    background-color: orange;
+}
+.continue{
+    background-color: rebeccapurple;
+}
+.times_array{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
